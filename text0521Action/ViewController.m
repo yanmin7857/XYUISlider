@@ -22,11 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
     self.umberSlider = [[BAUISlider alloc] initWithFrame:CGRectMake(50, 100, self.view.frame.size.width-100, 30)];
-    //显示方向
     self.umberSlider.titleStyle = TopTitleStyle;
-    //是否显示百分比
     self.umberSlider.isShowTitle = YES;
     //设置最大和最小值
     self.umberSlider.minimumValue = 0;
