@@ -16,7 +16,6 @@
 		329F25A020B25C1E005FF1BA /* text0521ActionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 329F259F20B25C1E005FF1BA /* text0521ActionTests.m */; };
 		329F25AB20B25C1E005FF1BA /* text0521ActionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 329F25AA20B25C1E005FF1BA /* text0521ActionUITests.m */; };
 		B7E66E4F480013D7F336D84B /* libPods-text0521Action.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DC960E2CD85BA98EC89AD1 /* libPods-text0521Action.a */; };
-		E36C60F021C14B3400C12C00 /* BAFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E36C60EF21C14B3400C12C00 /* BAFPSLabel.m */; };
 		E36C60F221C1536300C12C00 /* 链接.txt in Resources */ = {isa = PBXBuildFile; fileRef = E36C60F121C1536300C12C00 /* 链接.txt */; };
 		E3F2DE7020B2AB4D003C24D7 /* BAUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F2DE6E20B2AB4D003C24D7 /* BAUISlider.m */; };
 /* End PBXBuildFile section */
@@ -57,8 +56,6 @@
 		329F25AA20B25C1E005FF1BA /* text0521ActionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = text0521ActionUITests.m; sourceTree = "<group>"; };
 		329F25AC20B25C1E005FF1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E01B2D2F00BADEA94BCC2D3 /* Pods-text0521Action.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-text0521Action.release.xcconfig"; path = "Pods/Target Support Files/Pods-text0521Action/Pods-text0521Action.release.xcconfig"; sourceTree = "<group>"; };
-		E36C60EE21C14B3400C12C00 /* BAFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAFPSLabel.h; sourceTree = "<group>"; };
-		E36C60EF21C14B3400C12C00 /* BAFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAFPSLabel.m; sourceTree = "<group>"; };
 		E36C60F121C1536300C12C00 /* 链接.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "链接.txt"; sourceTree = "<group>"; };
 		E3F2DE6E20B2AB4D003C24D7 /* BAUISlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAUISlider.m; sourceTree = "<group>"; };
 		E3F2DE6F20B2AB4D003C24D7 /* BAUISlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAUISlider.h; sourceTree = "<group>"; };
@@ -117,8 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				E36C60F121C1536300C12C00 /* 链接.txt */,
-				E36C60EE21C14B3400C12C00 /* BAFPSLabel.h */,
-				E36C60EF21C14B3400C12C00 /* BAFPSLabel.m */,
 				E3F2DE6F20B2AB4D003C24D7 /* BAUISlider.h */,
 				E3F2DE6E20B2AB4D003C24D7 /* BAUISlider.m */,
 				329F258620B25C1E005FF1BA /* AppDelegate.h */,
@@ -361,7 +356,6 @@
 				329F259620B25C1E005FF1BA /* main.m in Sources */,
 				329F258820B25C1E005FF1BA /* AppDelegate.m in Sources */,
 				E3F2DE7020B2AB4D003C24D7 /* BAUISlider.m in Sources */,
-				E36C60F021C14B3400C12C00 /* BAFPSLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
